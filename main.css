@@ -1,0 +1,292 @@
+html {
+  font-family:Roboto,Arial,sans-serif;
+}
+header {
+  display: flex;
+  position:fixed;
+  justify-content: space-around;
+  padding-top: 15px;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition:box-shadow .25s ease 0s
+}
+.logo_DP {
+  width:35%;
+}
+h1 {
+  font-size:2em;
+  margin:.67em 0;
+  }
+.navigation {
+  position: relative;
+  display: flex;
+  margin-right: 170px;
+}
+.main-nav {
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+li:hover {
+  color: #00b39b;
+}
+li {
+  list-style: none;
+  color: #ababab;
+}
+a {
+  background-color:transparent;
+  color:#ababab; 
+  }
+a:hover {
+  color: #00b39b;
+}
+span {
+  color: #00b39b;
+}
+.main-nav li a {
+  text-decoration: none;
+  padding: 14px;
+}
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 3px;
+  width: 250px;
+  height: 280px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  margin-left: -100px;
+}
+.dropdown-content a {
+  display: block;
+  padding: 0%;
+  margin: 0%;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  .section_intro {
+  max-width: 1000px;
+  padding:50px;
+  margin: 100px auto;
+  position:relative;
+  }
+  .intro_logo {
+  display:block;
+  margin: auto;
+  }
+  .section_intro h1 {
+  text-align:center;
+  color:#00b39b;
+  }
+  .intro {
+  display: flex;
+  flex-direction: row;
+  }
+.col {
+  width:1000px;
+  color:#747474;
+}
+.services {
+  max-width: 1000px;
+  padding:50px;
+  margin: 100px auto;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+.services h1 {
+  text-align:center;
+  color: whitesmoke
+}
+.services h2 {
+  text-align:center;
+  color:whitesmoke;
+}
+.patients {
+  border-radius:15px;
+  width: 250px;
+  background-color: rgb(0, 179, 155)
+}
+.patients:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.doctors {
+  border-radius:15px;
+  width: 250px;
+  background-color: rgb(61, 131, 223);
+}
+.doctors:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.clinics {
+  border-radius:15px;
+  width: 250px;
+  background-color: rgb(27, 39, 52)
+}
+.clinics:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.style-select{
+  display: flex;
+  justify-content: center;
+  
+}
+select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  font-size: medium;
+  cursor: pointer;
+}
+.brands{
+  max-width: 1000px;
+  height: 150px;
+  padding:50px;
+  margin: 100px auto;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box1{
+  width: 200px;
+  color: #00b39b;
+  font-size: small;
+}
+.box2{
+  width: 700px;
+}
+.brands_logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+}
+  
+.stats {
+  background-color: #e5faf8;
+  background-image: url(/Media/background_logo.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:500px;
+  padding:10px;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  justify-content: space-around;
+}
+.stats h1 {
+  text-align:center;
+  color:#00b39b;
+}
+.stats h3 {
+  text-align:center;
+  color:#00b39b;
+}
+.col1 {
+  width:400px;
+  color:#747474;
+  text-align: center;
+} 
+.col2 {
+  width: 440px;
+  height: 500px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+.cards {
+  border-radius:15px;
+  background-color: white;
+  color:#747474;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+}
+.cards:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.shift_cards {
+  position: relative;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.offices_intro {
+  width: 600px;
+  margin: 100px auto;
+  position:relative;
+  }
+  .offices_intro h1{
+    text-align:center;
+    color:#00b39b;
+  }
+  .offices_intro p{
+    text-align:center;
+    color: #747474;
+  }
+.offices {
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: white;
+  text-decoration: none;
+}
+.offices:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.office_desc{
+  display: flex;
+  justify-content:space-around;
+  text-decoration: none;
+}
+.btn1 {
+  background-color: rgb(61, 131, 223);
+  border: none;
+  color: white;
+  cursor: pointer
+}
+.btn1:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.btn2 {
+ display:inline-block;
+ vertical-align:middle;
+ position:relative;
+ border: none;
+ border-radius:4px;
+ padding:10px;
+ background-color:#3d83df;
+ color: white;
+ text-align:center;
+ text-decoration:none;
+ cursor: pointer
+}
+.btn2:hover {
+  box-shadow:0 20px 50px 0 rgba(0,0,0,.13)
+ }
+.join_us{
+  width: 600px;
+  margin: 100px auto;
+  position:relative;
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
